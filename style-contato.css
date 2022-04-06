@@ -1,0 +1,91 @@
+header{
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caixa{
+    position: relative;
+    margin: 0 auto;
+    width: 940px;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+nav li{
+    margin: 0 0 0 15px;
+    display: inline;
+}
+
+nav a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000000;
+    font-size: 22px;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+footer{
+    background: #000000;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.copyright{
+    color: #ffffff;
+    margin: 20px 0 0;
+    font-size: 13px;
+}
+
+main{
+    margin: 0 auto;
+    width: 940px;
+}
+
+form{
+    margin: 40px 0;
+
+}
+
+form label, form legend{
+    margin: 0 0 5px;
+    font-size: 20px;
+    display: block;
+}
+
+.input-padrao{    
+    padding: 10px 20px;
+    margin: 0 0 20px;
+    display: block;
+    width: 35%;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+
+.enviar{
+    transition: 1s background;
+    background: #BBBBBB;
+    border-radius: 3px;
+    font-weight: bold;
+    color: #000000;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 15px 0;
+    border: none;
+    width: 40%;
+}
+
+.enviar:hover{
+    background: #000000;
+    color: #ffffff;
+}
